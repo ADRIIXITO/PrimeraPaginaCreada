@@ -6,7 +6,7 @@
 body{
     background-color: #b0c2f2;
 }
-header{
+footer{
     text-align: center;
     background-color: black;
     color: white;
@@ -18,9 +18,11 @@ header{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-style: italic;
+    width: 100%;
 }
 .titulo{
-    padding: 50px;
+    padding-top: 40px; padding-bottom: 40px;
+    width: 100%;
     text-align: center;
     background: url(images/malwareBanner.jpg);
     background-color: #b0c2f2;
@@ -30,26 +32,31 @@ header{
 .malware{
     background: #ff6961; 
     margin: 20px 20px 20px ;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px gray;
+}
+.malware p{
+    padding-left: 10px; padding-right: 10px; padding-bottom: 10px;
 }
 .contenedor{
     background-color: #b0c2f2 ;
     margin: 20px 20px 20px;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px gray;
 }
 section{
     display: flex;
 }
 h2{
-    text-align: center; padding-top: 20px
+    text-align: center; padding-top: 10px; padding-bottom: 5px;
 }
 p{
-    padding: 20px;
+    padding-left: 10px; padding-right: 10px;
 }
 img{
-    height: 150px;
+    height: 25%;
+    width: 25%;
     padding-right: 5px;
 }
 .navegacion{
